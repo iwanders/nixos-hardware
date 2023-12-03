@@ -21,10 +21,10 @@ let
   kernelPackages = linuxPackage {
     inherit version extraMeta kernelPatches;
     src = pkgs.fetchFromGitHub {
-      owner = "linux-surface";
-      repo = "kernel";
-      rev = "df0bd8ffbea23a1819920da1a95ab55d12d4c5bf";
-      sha256 = "sha256-iUVvpPhDy7oc5/kEH4eXpPL7kTFaFARpjQXo0GEqT/o=";
+      owner = "iwanders";
+      repo = "linux-surface-kernel";
+      rev = "3ab20d15992af3e250341d01c45f85442fb85420";
+      sha256 = "sha256-wN2epYzOAAGvajTFTDOvGH94rLUHqLwGGSwKk4D2U2c=";
     };
   };
 
