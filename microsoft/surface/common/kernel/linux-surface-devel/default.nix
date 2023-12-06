@@ -23,8 +23,8 @@ let
     src = pkgs.fetchFromGitHub {
       owner = "iwanders";
       repo = "linux-surface-kernel";
-      rev = "3ab20d15992af3e250341d01c45f85442fb85420";
-      sha256 = "sha256-wN2epYzOAAGvajTFTDOvGH94rLUHqLwGGSwKk4D2U2c=";
+      rev = "64b4732bd61e58a16231e057208db954f845fc53";
+      sha256 = "sha256-Gfg17jhqfLqsHJ2SkMperTqek0laEdLdeVv7IRoEKs8=";
     };
   };
 
