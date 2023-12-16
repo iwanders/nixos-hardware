@@ -19,7 +19,7 @@
       SURFACE_AGGREGATOR_HUB = module;
       SURFACE_AGGREGATOR_REGISTRY = module;
       SURFACE_AGGREGATOR_TABLET_SWITCH = module;
-      SURFACE_FAN = module;
+      HWMON_SENSORS_SURFACE_FAN = module;
 
       SURFACE_ACPI_NOTIFY = module;
       SURFACE_DTX = module;
