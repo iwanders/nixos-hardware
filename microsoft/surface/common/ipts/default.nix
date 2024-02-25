@@ -42,7 +42,7 @@ in
         script = "iptsd $(iptsd-find-hidraw)";
         wantedBy = [ "multi-user.target" ];
       };
-      environment.etc."iptsd/iptsd.conf".source = "${iptsConfFile}";
+      environment.etc."iptsd.conf".source = "${iptsConfFile}";
     })
   ];
 }
