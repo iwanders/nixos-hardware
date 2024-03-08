@@ -4,8 +4,8 @@
   linux-surface = fetchFromGitHub {
     owner = "linux-surface";
     repo = "linux-surface";
-    rev = "arch-6.6.6-1";
-    hash = "sha256-0pP/A0XllR/iheIBEBwEApaXpyFYzsnGZ+wdm4w5Jjg=";
+    rev = "arch-6.7.6-1";
+    sha256 = "1f89xzzn11d25g70zqqj3ybk68g11m33qpmh0rj46nhh9bzlj4ya";
   };
 
   # This is the owner and repo for the pre-patched kernel from the "linux-surface" project:

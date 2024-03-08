@@ -14,7 +14,7 @@ let
   };
   kernelPackages = linuxPackage {
     inherit version kernelPatches;
-    sha256 = "";
+    sha256 = "sha256-5InsDhNw0Im0RtVlre16aYCT0rfEEioY8h7bbvk9N9M=";
     ignoreConfigErrors=true;
   };
 
